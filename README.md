@@ -1,7 +1,22 @@
 # Decompiler Components Library
 
-> Dedicated to Borland Visual Components Library
+DCL is short for Decompiler Components Library, which inspired by the
+abbreviation of Borland Visual Components Library -- one of my favorite C++
+visual programming library in my childhood.
 
-DCL means Decompiler Components Library, which named after Borland Visual
-Components Library -- one of my favorite C++ visual programming library.
+## Project Structure
+
+```shell-script
+-+ docs: Documentations.
+ |
+ + include: Header files of libraries.
+ |
+ + lib: Implementation files of libraries.
+ |
+ + tests: Tests of the project.
+ |
+ + tools: Tools made with the project.
+ |
+ + utils: Utilities of the project. Such as build script.
+```
 
